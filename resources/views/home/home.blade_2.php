@@ -7,7 +7,7 @@
 //     echo "<script>alert('executed')</script>";
 //    // $timeToRunMaintainance = time() + $interval;
 // } 
-$hallmark = "<img class=hallmark src='public/assets/images/icons/hallmark.png'>";
+$hallmark = "<img class=hallmark src='assets/images/icons/hallmark.png'>";
  ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,15 +20,15 @@ $hallmark = "<img class=hallmark src='public/assets/images/icons/hallmark.png'>"
     <meta name="keywords" content="">
     <title>Sai Jewellers</title>
     <!-- CSS -->
-    <link href="{{url('public/assets/home/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{url('public/assets/home/css/font-awesome.min.css')}}" rel="stylesheet">
-    <link href="{{url('public/assets/home/css/animate.min.css')}}" rel="stylesheet">
-    <link href="{{url('public/assets/home/css/owl.carousel.css')}}" rel="stylesheet">
-    <link href="{{url('public/assets/home/css/owl.transitions.css')}}" rel="stylesheet">
-    <link href="{{url('public/assets/home/css/prettyPhoto.css')}}" rel="stylesheet">
-    <link href="{{url('public/assets/home/css/main.css')}}" rel="stylesheet">
-    <link href="{{url('public/assets/home/css/styles.css')}}" rel="stylesheet">
-    <link href="{{url('public/assets/custom/css/custom.css')}}" rel="stylesheet">
+    <link href="{{url('assets/home/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{url('assets/home/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{url('assets/home/css/animate.min.css')}}" rel="stylesheet">
+    <link href="{{url('assets/home/css/owl.carousel.css')}}" rel="stylesheet">
+    <link href="{{url('assets/home/css/owl.transitions.css')}}" rel="stylesheet">
+    <link href="{{url('assets/home/css/prettyPhoto.css')}}" rel="stylesheet">
+    <link href="{{url('assets/home/css/main.css')}}" rel="stylesheet">
+    <link href="{{url('assets/home/css/styles.css')}}" rel="stylesheet">
+    <link href="{{url('assets/custom/css/custom.css')}}" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -44,7 +44,7 @@ $hallmark = "<img class=hallmark src='public/assets/images/icons/hallmark.png'>"
 
 <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-<link href="{{url('public/assets/home/css/infinite-slider.css')}}" rel="stylesheet">
+<link href="{{url('assets/home/css/infinite-slider.css')}}" rel="stylesheet">
 
 </head>
 <!--/head-->
@@ -59,7 +59,7 @@ $hallmark = "<img class=hallmark src='public/assets/images/icons/hallmark.png'>"
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="{{url('public/assets/images/logo/logo.png')}}" style="height: 57px;" alt="logo"></a>
+                    <a class="navbar-brand" href="index.html"><img src="{{url('assets/images/logo/logo.png')}}" style="height: 57px;" alt="logo"></a>
                 </div>
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
@@ -82,7 +82,7 @@ $hallmark = "<img class=hallmark src='public/assets/images/icons/hallmark.png'>"
         	@if ($agent->isMobile())
             <!--/.item-->
             <div id="mobile_slider_1">
-	            <div class="item" style="background-image: url('{{url('public/assets/home/images/slider/slider_mobile_black.png')}}');">
+	            <div class="item" style="background-image: url('{{url('assets/home/images/slider/slider_mobile_black.png')}}');">
 	                <div class="slider-inner">
 	                    <div class="container">
 	                        <div class="row">
@@ -101,8 +101,8 @@ $hallmark = "<img class=hallmark src='public/assets/images/icons/hallmark.png'>"
 	            </div>
 	        </div>
             <!--/.item-->
-            <div id="mobile_slider_2">
-	            <div class="item" style="background-image: url('{{url('public/assets/home/images/slider/banner_ad.jpeg')}}');">
+            <!-- <div id="mobile_slider_2">
+	            <div class="item" style="background-image: url('{{url('assets/home/images/slider/banner_ad.jpeg')}}');">
 	                <div class="slider-inner">
 	                    <div class="container">
 	                        <div class="row">
@@ -115,11 +115,11 @@ $hallmark = "<img class=hallmark src='public/assets/images/icons/hallmark.png'>"
 	                    </div>
 	                </div>
 	            </div>
-	        </div>
+	        </div> -->
 	        @else
 	        <!--/.item-->
             <div id="desktop_slider_1">
-	            <div class="item" style="background-image: url('{{url('public/assets/home/images/slider/hgsggs_right_r.png')}}');">
+	            <div class="item" style="background-image: url('{{url('assets/home/images/slider/hgsggs_right_r.png')}}');">
 	                <div class="slider-inner">
 	                    <div class="container">
 	                        <div class="row">
@@ -139,7 +139,7 @@ $hallmark = "<img class=hallmark src='public/assets/images/icons/hallmark.png'>"
             </div>
             <!--/.item-->
             <div id="desktop_slider_2">
-	            <div class="item" style="background-image: url('{{url('public/assets/home/images/slider/sone_pe_suhaga.png')}}');">
+	            <div class="item" style="background-image: url('{{url('assets/home/images/slider/sone_pe_suhaga.png')}}');">
 	                <div class="slider-inner">
 	                    <div class="container">
 	                        <div class="row">
@@ -163,7 +163,7 @@ $hallmark = "<img class=hallmark src='public/assets/images/icons/hallmark.png'>"
         <!--/.owl-carousel-->
     </section>
     <!--/#main-slider-->
-    <!-- <div class="container" style="background-image: url('{{url('public/assets/home/images/imgs/falling_gold_coins.png')}}'); opacity: 0.8;"> -->
+    <!-- <div class="container" style="background-image: url('{{url('assets/home/images/imgs/falling_gold_coins.png')}}'); opacity: 0.8;"> -->
     <section id="get-in-touch" style="padding: 50px 0 50px;" class="wow fadeIn">
         <div class="container">
             <div class="row">
@@ -355,7 +355,7 @@ $hallmark = "<img class=hallmark src='public/assets/images/icons/hallmark.png'>"
             </div>
             <div class="row">
                 <div class="col-sm-6 wow fadeInLeft">
-                    <img class="img-responsive" src="{{url('public/assets/home/images/imgs/falling_gold_coins_acumulate_rupee.png')}}" alt="">
+                    <img class="img-responsive" src="{{url('assets/home/images/imgs/falling_gold_coins_acumulate_rupee.png')}}" alt="">
                 </div>
                 <div class="col-sm-6">
                     @foreach($InstallmentDetails as $Installment)
@@ -507,33 +507,33 @@ $hallmark = "<img class=hallmark src='public/assets/images/icons/hallmark.png'>"
             <div class="portfolio-items">
                 <div class="portfolio-item filter1">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="{{url('public/images/portfolio/01.jpg')}}" alt="">
+                        <img class="img-responsive" src="{{url('images/portfolio/01.jpg')}}" alt="">
                         <div class="portfolio-info">
                             <h3>Nemo enim ipsam</h3>
                             Voluptatem quia voluptas
-                            <a class="preview" href="{{url('public/images/portfolio/01.jpg')}}" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="{{url('images/portfolio/01.jpg')}}" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div><!--/.portfolio-item-->
 
                 <div class="portfolio-item filter2 filter3">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="{{url('public/images/portfolio/02.jpg')}}" alt="">
+                        <img class="img-responsive" src="{{url('images/portfolio/02.jpg')}}" alt="">
                         <div class="portfolio-info">
                             <h3>Sed quia consequ</h3>
                             Magni dolores eos qui
-                            <a class="preview" href="{{url('public/images/portfolio/02.jpg')}}" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="{{url('images/portfolio/02.jpg')}}" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div><!--/.portfolio-item-->
 
                 <div class="portfolio-item filter1">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="{{url('public/images/portfolio/03.jpg')}}" alt="">
+                        <img class="img-responsive" src="{{url('images/portfolio/03.jpg')}}" alt="">
                         <div class="portfolio-info">
                             <h3>Neque porro</h3>
                             Qui dolorem ipsum quia
-                            <a class="preview" href="{{url('public/images/portfolio/03.jpg')}}" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="{{url('images/portfolio/03.jpg')}}" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div><!--/.portfolio-item-->
@@ -1168,18 +1168,18 @@ $hallmark = "<img class=hallmark src='public/assets/images/icons/hallmark.png'>"
         </div>
     </footer>
     <!--/#footer-->
-    <script src="{{url('public/assets/home/js/jquery.js')}}"></script>
-    <script src="{{url('public/assets/home/js/bootstrap.min.js')}}"></script>
+    <script src="{{url('assets/home/js/jquery.js')}}"></script>
+    <script src="{{url('assets/home/js/bootstrap.min.js')}}"></script>
     <?php /*<script src="http://maps.google.com/maps/api/js?sensor=true"></script>  */ ?>
-    <script src="{{url('public/assets/home/js/owl.carousel.min.js')}}"></script>
-    <script src="{{url('public/assets/home/js/mousescroll.js')}}"></script>
-    <script src="{{url('public/assets/home/js/smoothscroll.js')}}"></script>
-    <script src="{{url('public/assets/home/js/jquery.prettyPhoto.js')}}"></script>
-    <script src="{{url('public/assets/home/js/jquery.isotope.min.js')}}"></script>
-    <script src="{{url('public/assets/home/js/jquery.inview.min.js')}}"></script>
-    <script src="{{url('public/assets/home/js/wow.min.js')}}"></script>
-    <script src="{{url('public/assets/home/js/main.js')}}"></script>
-    <script src="{{url('public/assets/custom/js/custom.js')}}"></script>
+    <script src="{{url('assets/home/js/owl.carousel.min.js')}}"></script>
+    <script src="{{url('assets/home/js/mousescroll.js')}}"></script>
+    <script src="{{url('assets/home/js/smoothscroll.js')}}"></script>
+    <script src="{{url('assets/home/js/jquery.prettyPhoto.js')}}"></script>
+    <script src="{{url('assets/home/js/jquery.isotope.min.js')}}"></script>
+    <script src="{{url('assets/home/js/jquery.inview.min.js')}}"></script>
+    <script src="{{url('assets/home/js/wow.min.js')}}"></script>
+    <script src="{{url('assets/home/js/main.js')}}"></script>
+    <script src="{{url('assets/custom/js/custom.js')}}"></script>
     <!-- countdown timer  -->
     <script type="text/javascript">
     countdown();

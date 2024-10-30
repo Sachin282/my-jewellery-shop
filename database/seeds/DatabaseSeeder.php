@@ -11,23 +11,26 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-    	// DB::table('admin')->insert([
-        //     'name' => "admin",
-        //     'email' => 'admin@testing.tst',
-        //     'password' => bcrypt('secret'),
-        //     'phone' => "7039349983",
-        //     'address' => "Mumbai",
-        //     'status' => "active",
-        //     'remember_token' => str_random(10)
-       	// ]);
-        // DB::table('j_type')->truncate();
-    	// DB::table('j_type')->insert([
-        //     [ 'name' => "Silver", 'price'=> 10000, 'making_charge'=> 200, 'created_at' => now()],
-        //     [ 'name' => "Gold", 'price'=> 100000, 'making_charge'=> 500, 'created_at' => now()],
-        //     [ 'name' => "Platinum", 'price'=> 1000000, 'making_charge'=> 1000, 'created_at' => now()],
-        // ]);
+        DB::table('admin')->truncate();
+    	DB::table('admin')->insert([
+            'name' => "admin",
+            'email' => 'admin@test.com',
+            'password' => bcrypt('  '),
+            'phone' => "7039349983",
+            'address' => "Mumbai",
+            'status' => "active",
+            'remember_token' => str_random(10)
+       	]);
+        DB::table('j_type')->truncate();
+    	DB::table('j_type')->insert([
+            [ 'name' => "Silver", 'price'=> 10000, 'making_charge'=> 200, 'created_at' => now()],
+            [ 'name' => "Gold", 'price'=> 100000, 'making_charge'=> 500, 'created_at' => now()],
+            [ 'name' => "Platinum", 'price'=> 1000000, 'making_charge'=> 1000, 'created_at' => now()],
+        ]);
         DB::table('gcash_option')->truncate();
     	DB::table('gcash_option')->insert([
+            [ 'id' => 1, 'name' => "Referral Discount", 'type'=> 'flat', 'discount'=> 500, 'discount_type' => 'flat', 'upto' => 0, 'status' => 'active', 'created_at' => now()],
+            [ 'id' => 2, 'name' => "Basic Down-Payment Discount", 'type'=> 'percentage', 'discount'=> 10, 'discount_type' => 'percentage', 'upto' => 1, 'status' => 'active', 'created_at' => now()],
             [ 'id' => 3, 'name' => "Diwali Offer", 'type'=> 'flat', 'discount'=> 500, 'discount_type' => 'flat', 'upto' => 1, 'status' => 'active', 'created_at' => now()],
         ]);
         DB::table('installment_detail')->truncate();

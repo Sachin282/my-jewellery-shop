@@ -36,19 +36,19 @@ echo "<script type='text/javascript'> document.location = 'change-password.php';
 	<meta name="author" content="">
 
 	<title>Car Rental Portal | Admin Login</title>
-	<link rel="stylesheet" href="{{url('public/admin/css/font-awesome.min.css') }}">
-	<link rel="stylesheet" href="{{url('public/admin/css/bootstrap.min.css') }}">
-	<link rel="stylesheet" href="{{url('public/admin/css/dataTables.bootstrap.min.css') }}">
-	<link rel="stylesheet" href="{{url('public/admin/css/bootstrap-social.css') }}">
-	<link rel="stylesheet" href="{{url('public/admin/css/bootstrap-select.css') }}">
-	<link rel="stylesheet" href="{{url('public/admin/css/fileinput.min.css') }}">
-	<link rel="stylesheet" href="{{url('public/admin/css/awesome-bootstrap-checkbox.css') }}">
-	<link rel="stylesheet" href="{{url('public/admin/css/style.css') }}">
+	<link rel="stylesheet" href="{{url('admin/css/font-awesome.min.css') }}">
+	<link rel="stylesheet" href="{{url('admin/css/bootstrap.min.css') }}">
+	<link rel="stylesheet" href="{{url('admin/css/dataTables.bootstrap.min.css') }}">
+	<link rel="stylesheet" href="{{url('admin/css/bootstrap-social.css') }}">
+	<link rel="stylesheet" href="{{url('admin/css/bootstrap-select.css') }}">
+	<link rel="stylesheet" href="{{url('admin/css/fileinput.min.css') }}">
+	<link rel="stylesheet" href="{{url('admin/css/awesome-bootstrap-checkbox.css') }}">
+	<link rel="stylesheet" href="{{url('admin/css/style.css') }}">
 </head>
 
 <body>
 	
-	<div class="login-page bk-img" style="background-image: url('{{ url('public/admin/img/login-bg.jpg') }}');">
+	<div class="login-page bk-img" style="background-image: url('{{ url('admin/img/login-bg.jpg') }}');">
 		<div class="form-content">
 			<div class="container">
 				<div class="row">

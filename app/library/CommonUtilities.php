@@ -113,14 +113,13 @@ class CommonUtilities extends Controller
 			$unit_type="gram";
 			$currency_code = strtolower($currency_code);
 			$unit_type = strtolower($unit_type);
-			$URL="http://goldpricez.com/api/rates/currency/".$currency_code."/measure/".$unit_type;
-			$apiKey="613522e6a395895bfb2111f42d66bfb3613522e6";
+			$URL="https://goldpricez.com/api/rates/currency/".$currency_code."/measure/".$unit_type;
+			$apiKey="613522e6a395895bfb2111f42d66bfb3613522e6";  //6fb9f4e5d02b4befdc43eeb19f11ca7b6fb9f4e5
 			$URL=strtolower($URL);
 
 			$result=$this->httpGet($URL,$apiKey);
 			$array1 = json_decode($result, true);
 			$result = json_decode($array1, true);
-
 			$current_gold_price=$result[$unit_type.'_in_'.$currency_code];
 			$gmt_datetime_gold_updated=$result['gmt_ounce_price_'.'usd'.'_updated'];
 			$currency_rate =1;

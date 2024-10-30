@@ -32,7 +32,7 @@
 
 /*#Goldrate {
     color: gold;
-    background-image: url('public/assets/home/images/others/sale4.png');
+    background-image: url('assets/home/images/others/sale4.png');
     animation: blinker_color 1s steps(2, start) infinite;
     border: 5px solid;
     border-radius: 5px;
@@ -86,7 +86,7 @@
 /* Gold Rate on Sale */
 
 #rate {
-    background-image: url('/public/assets/home/images/others/sale4.png');
+    background-image: url('/assets/home/images/others/sale4.png');
     background-repeat: no-repeat;
     background-size: 170px  170px; 
     background-position: center;

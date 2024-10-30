@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="{{url('public/assets/images/logo/apple-icon.png') }}">
-    <link rel="icon" type="image/png" href="{{url('public/assets/images/logo/favicon.png') }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{url('assets/images/logo/apple-icon.png') }}">
+    <link rel="icon" type="image/png" href="{{url('assets/images/logo/favicon.png') }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title> Now UI Dashboard by Creative Tim</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
@@ -36,12 +36,12 @@
     <meta property="og:site_name" content="Creative Tim" />
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-    <link rel="stylesheet" href="{{url('public/assets/user/fontawesome/v5.7.1/css/all.css')}}" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url('assets/user/fontawesome/v5.7.1/css/all.css')}}" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- CSS Files -->
-    <link href="{{url('public/assets/user/css/bootstrap.min.css')}}" rel="stylesheet" />
-    <link href="{{url('public/assets/user/css/now-ui-dashboard.min44ca.css?v=1.4.0')}}" rel="stylesheet" />
+    <link href="{{url('assets/user/css/bootstrap.min.css')}}" rel="stylesheet" />
+    <link href="{{url('assets/user/css/now-ui-dashboard.min44ca.css?v=1.4.0')}}" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="{{url('public/assets/user/demo/demo.css')}}" rel="stylesheet" />
+    <link href="{{url('assets/user/demo/demo.css')}}" rel="stylesheet" />
     <!-- Google Tag Manager -->
 <!--     <script>
     (function(w, d, s, l, i) {
@@ -112,23 +112,23 @@
         </div>
     </div> -->
     <!--   Core JS Files   -->
-    <script src="{{url('public/assets/user/js/core/jquery.min.js')}}"></script>
-    <script src="{{url('public/assets/user/js/core/popper.min.js')}}"></script>
-    <script src="{{url('public/assets/user/js/core/bootstrap.min.js')}}"></script>
-    <script src="{{url('public/assets/user/js/plugins/perfect-scrollbar.jquery.min.js')}}"></script>
+    <script src="{{url('assets/user/js/core/jquery.min.js')}}"></script>
+    <script src="{{url('assets/user/js/core/popper.min.js')}}"></script>
+    <script src="{{url('assets/user/js/core/bootstrap.min.js')}}"></script>
+    <script src="{{url('assets/user/js/plugins/perfect-scrollbar.jquery.min.js')}}"></script>
     <!--  Google Maps Plugin    -->
     <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGat1sgDZ-3y6fFe6HD7QUziVC6jlJNog"></script> -->
     <!-- Place this tag in your head or just before your close body tag. -->
     <!-- <script async defer src="../../../buttons.github.io/buttons.js')}}"></script> -->
     <!-- Chart JS -->
-    <script src="{{url('public/assets/user/js/plugins/chartjs.min.js')}}"></script>
+    <script src="{{url('assets/user/js/plugins/chartjs.min.js')}}"></script>
     <!--  Notifications Plugin    -->
-    <script src="{{url('public/assets/user/js/plugins/bootstrap-notify.js')}}"></script>
+    <script src="{{url('assets/user/js/plugins/bootstrap-notify.js')}}"></script>
     <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
-    <script src="{{url('public/assets/user/js/now-ui-dashboard.min44ca.js?v=1.4.0')}}" type="text/javascript"></script><!-- Now Ui Dashboard DEMO methods, don't include it in your project! -->
-    <script src="{{url('public/assets/user/demo/demo.js')}}"></script>
+    <script src="{{url('assets/user/js/now-ui-dashboard.min44ca.js?v=1.4.0')}}" type="text/javascript"></script><!-- Now Ui Dashboard DEMO methods, don't include it in your project! -->
+    <script src="{{url('assets/user/demo/demo.js')}}"></script>
     <!-- Sharrre libray -->
-    <script src="{{url('public/assets/user/demo/jquery.sharrre.js')}}"></script>
+    <script src="{{url('assets/user/demo/jquery.sharrre.js')}}"></script>
     <script>
     // $(document).ready(function() {
 
