@@ -1,0 +1,2 @@
+$requestedFor = request()->segment(4);
+    dd(request()->segment(count(request()->segments())));

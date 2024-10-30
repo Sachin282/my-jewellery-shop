@@ -1,0 +1,12 @@
+to view any sql query
+
+        DB::enableQueryLog();
+        $sql = DB::table('j_type')
+                ->where('id',$request->j_type)
+                ->update([
+                    'price' => $request->gold_price,
+                    'making_charge' => $request->making_charge
+                    ]);
+
+         $queries = DB::getQueryLog();
+         dd($queries);

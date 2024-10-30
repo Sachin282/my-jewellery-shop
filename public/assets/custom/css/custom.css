@@ -1,0 +1,131 @@
+.hallmark {
+    background-image: url('../../images/icons/hallmark.png');
+    height: 1em;
+    width: 1em;
+}
+
+
+/*countdown timer*/
+
+/************ Timer Styles *************/
+#countdown {
+    border: 1px solid;
+    text-align: center;
+    background: red;
+    color: #fff;
+}
+
+.info {
+    /*text-align: center;*/
+}
+
+.clock {
+    background: #0c1021;
+    color: white;
+    font-size: 2em;
+    border: 1px solid skyblue;
+    border-radius: 8px;
+}
+
+
+/* Gold Rate */
+
+/*#Goldrate {
+    color: gold;
+    background-image: url('public/assets/home/images/others/sale4.png');
+    animation: blinker_color 1s steps(2, start) infinite;
+    border: 5px solid;
+    border-radius: 5px;
+    text-align: center;
+    background: red;
+    color: #000;
+}
+
+.Goldrate-content {
+    background: #fff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2em;
+    border: 1px solid skyblue;
+    border-radius: 8px;
+}
+
+.gradient {
+    background: linear-gradient(to right, rgb(209, 12, 193), rgb(5, 181, 240));
+}
+
+.custom-heading {
+    color: #8a1e56 !important;
+}
+
+.custom-heading-content {
+    /*color: #5c4911 !important;*\
+    font-size: 1em;
+}
+
+.blink {
+    animation: blinker 1s step-start infinite;
+    color: gold;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes blinker_color {
+    to {
+        border-color: red;
+    }
+}
+*/
+
+
+
+/* Gold Rate on Sale */
+
+#rate {
+    background-image: url('/public/assets/home/images/others/sale4.png');
+    background-repeat: no-repeat;
+    background-size: 170px  170px; 
+    background-position: center;
+    height: 250px;
+    text-align: center;
+
+    animation: anime 2s steps(3, start) infinite;
+    border-radius: 5px;
+    border: 5px solid;
+    border-color: gold;
+    color: gold;
+    font-size: 1em;
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: 220px;
+}
+
+
+@keyframes anime {
+    to {
+        background-size: 230px  230px; 
+        border-color: skyblue;
+        font-size: 2.3em; 
+    }
+}
+
+.custom_slider{
+
+}
+
+/*to remove footer copyright */
+.container:before {
+    content: none;
+}
+
+:after {
+    content: none;
+}
+
+.row-fluid {
+    display: none;
+}
